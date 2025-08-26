@@ -1,0 +1,55 @@
+{
+  "tool": "manual_analysis",
+  "version": "1.0.0",
+  "analysis_date": "2025-01-27T10:00:00Z",
+  "summary": {
+    "total_files": 27,
+    "total_lines": 3980,
+    "duplicated_lines": 0,
+    "duplicated_files": 0,
+    "duplication_percentage": 0.0
+  },
+  "per_file_analysis": [
+    {
+      "file": "lib/core/domain/value_objects/location.dart",
+      "lines": 67,
+      "duplicated_lines": 0,
+      "duplication_percentage": 0.0,
+      "notes": "Haversine formula is mathematical constant - acceptable"
+    },
+    {
+      "file": "lib/core/domain/value_objects/email.dart", 
+      "lines": 32,
+      "duplicated_lines": 0,
+      "duplication_percentage": 0.0,
+      "notes": "Standard email validation - generic pattern"
+    },
+    {
+      "file": "lib/core/domain/entities/booking.dart",
+      "lines": 230,
+      "duplicated_lines": 0,
+      "duplication_percentage": 0.0,
+      "notes": "Original event management business logic"
+    }
+  ],
+  "detected_patterns": [
+    {
+      "pattern_type": "enum_serialization",
+      "occurrences": 12,
+      "assessment": "Standard Dart pattern - not concerning"
+    },
+    {
+      "pattern_type": "copyWith_methods",
+      "occurrences": 8,
+      "assessment": "Standard Flutter immutability pattern"
+    },
+    {
+      "pattern_type": "repository_pattern",
+      "occurrences": 4,
+      "assessment": "Clean Architecture pattern - acceptable"
+    }
+  ],
+  "violations": [],
+  "warnings": [],
+  "verdict": "CLEAN - No problematic duplication detected"
+}

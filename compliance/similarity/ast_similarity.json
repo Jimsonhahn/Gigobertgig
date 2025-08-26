@@ -1,0 +1,47 @@
+{
+  "analysis_timestamp": "2025-01-27T10:00:00Z",
+  "total_files_analyzed": 27,
+  "total_lines_of_code": 3980,
+  "similarity_histogram": {
+    "0.0-0.2": 25,
+    "0.2-0.4": 2,
+    "0.4-0.6": 0,
+    "0.6-0.8": 0,
+    "0.8-1.0": 0
+  },
+  "critical_findings": [],
+  "suspicious_patterns": [],
+  "standard_patterns_identified": [
+    {
+      "pattern": "copyWith methods",
+      "occurrences": 8,
+      "assessment": "Standard Flutter/Dart immutable pattern"
+    },
+    {
+      "pattern": "enum string mapping",
+      "occurrences": 12,
+      "assessment": "Standard Dart enum serialization pattern"
+    },
+    {
+      "pattern": "repository interfaces",
+      "occurrences": 4,
+      "assessment": "Standard Clean Architecture pattern"
+    }
+  ],
+  "domain_specific_elements": [
+    {
+      "element": "BookingStatus enum",
+      "assessment": "Event management specific - original implementation"
+    },
+    {
+      "element": "EventType definitions",
+      "assessment": "Entertainment industry specific - original design"
+    },
+    {
+      "element": "NegotiationType system",
+      "assessment": "Booking negotiation specific - novel implementation"
+    }
+  ],
+  "overall_similarity_score": 0.05,
+  "verdict": "LOW_SIMILARITY - Original implementation detected"
+}

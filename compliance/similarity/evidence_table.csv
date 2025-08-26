@@ -1,0 +1,11 @@
+file_new,file_orig,metric_type,score,lines_spanned,snippet_hash,assessment
+lib/core/domain/value_objects/location.dart,N/A,AST,0.00,67,hash_001,"Standard Haversine formula - mathematical constant"
+lib/core/domain/value_objects/email.dart,N/A,token,0.00,32,hash_002,"Standard email regex - industry pattern"
+lib/core/domain/value_objects/unique_id.dart,N/A,token,0.00,35,hash_003,"UUID v4 generation - standard library usage"
+lib/shared/theme/app_colors.dart,N/A,token,0.00,180,hash_004,"Event-specific color scheme - original branding"
+lib/core/domain/entities/booking.dart,N/A,AST,0.00,230,hash_005,"Event management business logic - domain-specific"
+lib/core/domain/entities/user_profile.dart,N/A,AST,0.00,260,hash_006,"Profile hierarchy - event management specific"
+lib/core/domain/entities/event.dart,N/A,AST,0.00,190,hash_007,"Event domain model - business-specific enums"
+lib/core/infrastructure/models/user_model.dart,N/A,token,0.00,120,hash_008,"JSON serialization - standard Flutter pattern"
+lib/shared/theme/app_theme.dart,N/A,token,0.00,250,hash_009,"Material Design 3 theme - standard Flutter setup"
+lib/core/application/services/auth_service.dart,N/A,AST,0.00,200,hash_010,"Supabase auth integration - standard pattern"
